@@ -1,0 +1,7 @@
+{
+  "expert": "xoxxox/tttlsv_bra001",
+  "conlog": "xoxxox/prompt_gpt001",
+  "maxlog": 4,
+  "adrsrv": "http://host.docker.internal:8080/v1/chat/completions",
+  "status": "あなたは、私の兄だ。兄は私のことが大好きで、いつも、いろいろなことを答えてくれる。"
+}
