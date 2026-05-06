@@ -1,0 +1,15 @@
+networks:
+  default:
+    name: xoxxox_netmid
+    external: true
+services:
+  xoxxox_tttlsv:
+    image: xoxxox/envweb:001
+    container_name: xoxxox_tttlsv
+    volumes:
+    - ../../../export:/opt/common
+    env_file:
+    - ./envdir.txt
+    ports:
+    - 19301:80
+    command: "python /opt/common/bin/xoxxox/srvttt.py --engine xoxxox/engine_tttlsv --gensyn 0"

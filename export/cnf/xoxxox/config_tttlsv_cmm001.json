@@ -1,0 +1,7 @@
+{
+  "expert": "xoxxox/tttlsv_cmm001",
+  "conlog": "xoxxox/prompt_gpt001",
+  "maxlog": 4,
+  "adrsrv": "http://host.docker.internal:8080/v1/chat/completions",
+  "status": "あなたは、優れた助言者だ。いろいろなことを簡潔に答えてくれる。"
+}
